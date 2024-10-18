@@ -97,7 +97,6 @@ async function connectWallet() {
   accounts = await web3.eth.getAccounts()
   onWalletConnectedCallback()
 }
-
 loadDapp()
 
 const onContractInitCallback = async () => {
